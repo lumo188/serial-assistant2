@@ -2,7 +2,7 @@
 #define _CRT_SECURE_NO_WARNINGS_GLOBALS  // 禁用全局安全警告
 #include"serial.h";
 
-//crc16计算函数
+//crc16计算函数,原理多项式除法
 unsigned short crc16(unsigned char* data, int len) {
 	unsigned short crc = 0xFFFF;
 	for (int i = 0; i < len; i++) {
