@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="serial assistant2/serial assistant2.vcxproj" Id="c8b8ae7c-715a-47ed-98a9-587d71dfe22a" />
+</Solution>
